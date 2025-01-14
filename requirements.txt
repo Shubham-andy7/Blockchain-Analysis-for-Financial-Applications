@@ -1,0 +1,28 @@
+# Core libraries for blockchain interaction
+#web3==6.0.0
+
+# Data manipulation and analysis
+pandas==2.1.1
+numpy==1.26.0
+
+# Visualization libraries
+matplotlib==3.8.0
+seaborn==0.13.0
+
+# HTTP requests (if fetching data from APIs)
+requests==2.31.0
+
+# Testing libraries (optional)
+pytest==7.5.0
+pytest-mock==3.11.0
+
+# Environment variables
+python-dotenv==1.0.0
+
+#6f4d52e14a7a4415a19c8db2bbad5794
+#https://mainnet.infura.io/v3/6f4d52e14a7a4415a19c8db2bbad5794
+#curl --url https://mainnet.infura.io/v3/6f4d52e14a7a4415a19c8db2bbad5794 \
+  #-X POST \
+  #-H "Content-Type: application/json" \
+  #-d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
+
